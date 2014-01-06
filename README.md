@@ -66,11 +66,11 @@ exp：可以使用php和带%的YDataGrid表达式，也可以使用$data（表�
 php：可用变量$data（表示当前单元格）、$key（初始化时设定的key的第一个值）、$keys[i]（初始化时设定的key的第i个值）<br>
 Class<? extends YDataGridCell>：扩展了YDataGridCell的类实例（这里使用java的写法比较好表达）<br>
 <br>
-使用YExcelDataGrid/YCSVDataGrid时，需要三方扩展：phpexcel<br>
+使用YExcelDataGrid/YCSVDataGrid时，需要三方扩展：<a href="phpexcel.codeplex.com/" target="_blank">phpexcel</a><br>
 
-
-示例：
-
-test.pos.lingou.com (发不了链接，汗~~~)
-测试用户名：r 
+<br>
+<h3>示例：</h3>
+<p>
+<a href="http://test.pos.lingou.com" target="_blank">http://test.pos.lingou.com</a><br>
+测试用户名：r <br>
 密码：123456
