@@ -1,0 +1,20 @@
+/**
+ * YTable样式
+ */
+.y_table{padding:0;margin:10px 0 10px;} 
+.y_table caption{white-space:nowrap;display:inline-block;background:#81C8CD;padding:3px 20px 5px;font:bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;color:white;letter-spacing: 2px;border-radius:4px 4px 0 0;line-height:20px;} 
+.y_table th {font: bold 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;color: #4f6b72;border-right: 1px solid #C1DAD7;border-bottom: 1px solid #C1DAD7;border-top: 1px solid #C1DAD7;letter-spacing: 2px;text-transform: uppercase;text-align: left;padding: 6px 6px 6px 12px;background: #CAE8EA  no-repeat;line-height: 24px;} 
+.y_table th.nobg{border-top: 0;border-left: 0;border-right: 1px solid #C1DAD7; background: none;} 
+.y_table td{border-right:1px solid #C1DAD7;border-bottom:1px solid #C1DAD7;background:#fff;font-size:12px;padding: 6px 6px 6px 12px;color: #4f6b72;} 
+.y_table .red td,.y_table .red td *{color:red !important;}
+.y_table tr:hover td.alt{background:#D3E8E8;}
+.y_table tr:hover td.title{background:#E4F1F1;}
+.y_table tr:hover td{background:#F5FAFA;}
+.y_table tr.selected td.alt{background:#AFD8F3;}
+.y_table tr.selected td.title{background:#E4EFFA;}
+.y_table tr.selected td{background:#F5FAFF;}
+.y_table td.alt{background:#E4F1F1;color:#797268;}
+.y_table td.title{background:#F5FAFA;}
+.y_table th.spec{border-left: 1px solid #C1DAD7;border-top: 0;background: #fff no-repeat;font: bold 10px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;}
+.y_table th.specalt{border-left: 1px solid #C1DAD7;border-top: 0;background: #f5fafa no-repeat;font: bold 10px "Trebuchet MS",Verdana,Arial,Helvetica,sans-serif;color:#797268;}
+.y_table td.red{color:red;}
